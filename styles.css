@@ -23,13 +23,21 @@ p,
 
 }
 
+main{
+    width: 100%;
+    height: 100%;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+/* just tried and removed margin from .order-component, asked question on the solution but tried it on my own right after, seems legit. */
+}
 
 .order-component {
     width: 90%;
-    margin: 5rem auto;
+    /* margin: 5rem auto; */
     display: grid;
     grid-template-columns: 1fr;
-    /* seems like minmax allow it to resize */
     grid-template-rows: minmax(165px 183px) 1fr;
     background-color: hsl(225, 100%, 100%);
     border-radius: 15px;
@@ -155,7 +163,7 @@ p,
 .attribution {
     font-size: 11px;
     text-align: center;
-    padding: 5rem 0;
+    /* padding: 5rem 0; */
 }
 
 .attribution a {
@@ -183,7 +191,7 @@ p,
 
     .order-component {
         max-width: 375px;
-        margin: 5rem auto;
+        /* margin: 5rem auto; */
     }
 
     .plan-price {
@@ -203,7 +211,7 @@ p,
     }
 
     .order-component {
-        margin: 10rem auto;
+        /* margin: 10rem auto; */
     }
 }
 
@@ -219,7 +227,7 @@ p,
     }
 
     .order-component {
-        margin: 10rem auto;
+        /* margin: 10rem auto; */
         max-width: 420px;
         max-height: 585px;
     }
@@ -233,7 +241,7 @@ p,
 @media screen and (min-width: 1440px) {
 
     .order-component{
-        margin:20rem auto;
+        /* margin:20rem auto; */
     }
     
 }
